@@ -12,8 +12,9 @@ $ brew untap qameta/allure
 $ brew update
 $ brew install allure
 
-# run tests locally:
-$ pytest smoke/test_api.py -v --alluredir=test-report
+# run tests locally
+# you can change x and y values for whatever int value you want i.e (-100, 100)
+$ pytest smoke/test_api.py -v --x=-10 --y=10 --alluredir=test-report
 
 # run allure reports
 $ allure serve test-report/
