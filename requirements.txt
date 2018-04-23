@@ -1,0 +1,6 @@
+requests
+pytest
+pytest-allure-adaptor
+pytest-xdist
+pytest-variables
+assertlib
